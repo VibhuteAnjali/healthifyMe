@@ -1,0 +1,228 @@
+{
+  "nav": ["Home", "Blogs", "Diet", "Fitness", "About Us"],
+  "home": {
+    "heroOptions": [
+      {
+        "headline": "Your Journey to Health Starts Here.",
+        "subline": "Guiding you with fitness plans, diet tips, and motivation every step of the way."
+      },
+      {
+        "headline": "Stronger Every Day.",
+        "subline": "Discover workouts and nutrition programs designed for real, lasting results."
+      },
+      {
+        "headline": "Eat Well. Move More. Live Better.",
+        "subline": "The perfect blend of fitness, nutrition, and lifestyle coaching."
+      },
+      {
+        "headline": "Health Made Simple.",
+        "subline": "Practical plans for fitness, diet, and wellness that fit your lifestyle."
+      }
+    ],
+    "recentBlogs": {
+      "title": "Recent blog posts",
+      "items": [
+        {
+          "id": "exercise-program",
+          "category": "Exercise Program",
+          "title": "Exercise Program",
+          "excerpt": "Strong body, stronger mind - train daily, shine daily. Consistency builds strength, and strength builds confidence.",
+          "image": "/placeholder/exercise.jpg"
+        },
+        {
+          "id": "nutrition-plans",
+          "category": "Nutrition Plans",
+          "title": "Nutrition Plans",
+          "excerpt": "Fuel your body with the right food, and it will reward you with energy and strength. Good nutrition isn't a diet, it's a lifestyle for lifelong health.",
+          "image": "/placeholder/nutrition.jpg"
+        },
+        {
+          "id": "diet-program",
+          "category": "Diet Program",
+          "title": "Diet Program",
+          "excerpt": "A healthy diet is not about restriction, it's about nourishment - eat better, live better. Small changes in your plate create big changes in your life.",
+          "image": "/placeholder/diet.jpg"
+        }
+      ]
+    },
+    "fitnessPosts": {
+      "title": "Recent Fitness Posts",
+      "items": [
+        {
+          "id": "muscle-training",
+          "title": "Muscle Training",
+          "bullets": [
+            "Muscles are built with sweat, strength, and consistency.",
+            "Train hard today, so your strength speaks tomorrow.",
+            "Every rep takes you one step closer to the body you want.",
+            "Strong muscles, stronger you — push past your limits."
+          ]
+        },
+        {
+          "id": "yoga",
+          "title": "Yoga",
+          "bullets": [
+            "Yoga is the journey of the self, through the self, to the self.",
+            "Balance your body, calm your mind, and nourish your soul with yoga.",
+            "On the mat, you find strength, stillness, and self-awareness."
+          ]
+        },
+        {
+          "id": "jogging",
+          "title": "Jogging",
+          "bullets": [
+            "Jogging is not about speed, it’s about consistency and freedom.",
+            "Every step you jog is a step closer to a healthier you.",
+            "Jog to clear your mind, strengthen your body, and uplift your spirit.",
+            "The road may be long, but every jog makes you stronger."
+          ]
+        }
+      ]
+    },
+    "wellnessPosts": {
+      "title": "Recent Wellness Posts",
+      "bullets": [
+        "Wellness is the balance of body, mind, and spirit.",
+        "Invest in your wellness today to avoid illness tomorrow",
+        "True wellness is not just living longer, but living better",
+        "Mental health is just as important as physical health — care for both",
+        "Strong minds are built through self-care, support, and understanding",
+        "Healing begins when you choose to speak, share, and seek support"
+      ]
+    },
+    "recipes": {
+      "title": "Recent Diet & Recipes Posts",
+      "items": [
+        {
+          "id": "rainbow-lentil-bowls",
+          "title": "Rainbow Lentil & Brown Rice Veggie Bowls",
+          "servings": 3,
+          "ingredients": [
+            "1 cup brown or red rice (cooked)",
+            "1 cup cooked lentils (green or brown)",
+            "1 cup sweet corn kernels (boiled/steamed)",
+            "1 cup cucumber slices",
+            "1 cup cherry tomatoes (halved)",
+            "1/2 cup black olives (sliced)",
+            "2–3 spring onions (chopped)",
+            "Fresh parsley or cilantro",
+            "Salt & pepper",
+            "Olive oil & lemon juice"
+          ],
+          "instructions": [
+            "Cook rice and lentils.",
+            "Slice cucumbers and tomatoes; slice olives and chop spring onions; cook corn.",
+            "Layer bowls: lentils, veggies, corn, rice. Garnish with herbs.",
+            "Season with salt, pepper, olive oil, and lemon juice."
+          ],
+          "optional": [
+            "Add avocado slices.",
+            "Feta cheese or tofu.",
+            "Tahini or yogurt-based dressing."
+          ]
+        },
+        {
+          "id": "salmon-stir-fry",
+          "title": "Salmon Stir-Fry with Broccoli & Bell Peppers",
+          "servings": 2,
+          "ingredients": [
+            "2 salmon fillets (cubed)",
+            "2 cups broccoli florets",
+            "1 red bell pepper (chunks)",
+            "2 green onions (garnish)",
+            "2 cloves garlic (minced)",
+            "1 tbsp soy sauce",
+            "1 tbsp olive or sesame oil",
+            "1 tsp lemon juice or zest",
+            "1/2 tsp red chili flakes (optional)",
+            "Salt & pepper"
+          ],
+          "instructions": [
+            "Season salmon with salt, pepper, lemon.",
+            "Stir-fry broccoli and peppers until tender-crisp; remove.",
+            "Sear salmon 2–3 minutes per side.",
+            "Return vegetables; add garlic, soy, chili; toss and serve with green onions."
+          ],
+          "optional": [
+            "Add mushrooms, snap peas, or carrots.",
+            "Use teriyaki or honey-garlic sauce.",
+            "Replace salmon with tofu or chicken."
+          ]
+        },
+        {
+          "id": "rainbow-buddha-bowl",
+          "title": "Rainbow Buddha Bowl",
+          "servings": 2,
+          "ingredients": [
+            "1 cup cooked brown rice or quinoa",
+            "1 cup roasted sweet potatoes (cubed)",
+            "1 cup chickpeas (rinsed)",
+            "1 cup kale or mixed greens (chopped)",
+            "1/2 cup red cabbage (shredded)",
+            "1/2 cup sauerkraut or pickled veggies",
+            "1 watermelon radish (thinly sliced)",
+            "1 rainbow carrot (peeled into ribbons)",
+            "1/4 cup microgreens",
+            "1 tbsp sesame seeds"
+          ],
+          "dressing": {
+            "name": "Golden Turmeric Tahini",
+            "ingredients": [
+              "3 tbsp tahini",
+              "1 tbsp lemon juice",
+              "1 tsp maple syrup or honey",
+              "1/2 tsp turmeric",
+              "2–3 tbsp water",
+              "Salt & pepper"
+            ]
+          },
+          "instructions": [
+            "Cook base grains.",
+            "Roast sweet potatoes at 200°C (400°F) for 20–25 minutes.",
+            "Prep veggies and chickpeas.",
+            "Whisk dressing ingredients until pourable.",
+            "Assemble bowls and drizzle dressing; sprinkle sesame seeds."
+          ],
+          "optional": [
+            "Add avocado slices.",
+            "Roasted tofu or tempeh.",
+            "Chili flakes for heat."
+          ]
+        }
+      ]
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "effectiveDate": "01/05/2024",
+      "content": [
+        "At Yespublic Health and Fitness, we respect your privacy. This Privacy Policy explains how we collect, use, and protect your information when you sign up for our health-related email updates. We are a non-commercial website, and your personal information is never sold or misused.",
+        "We collect your email address when you voluntarily subscribe to our newsletters, health tips, or updates. If you contact us directly (e.g., via forms), we may collect your name or other details you provide. Like most websites, we may collect basic browsing data (IP, browser type, pages visited) for analytics and improvement.",
+        "We use your email address to send health-related tips and resources, share newsletters you subscribed to, and respond to inquiries.",
+        "You will only receive emails if you opt-in. Every email includes an unsubscribe link. We do not send spam or irrelevant promotions.",
+        "We do not sell, rent, or share your personal information with third parties for commercial purposes. If we use a third-party email service (like Mailchimp or Brevo), your email is stored securely and used only for the messages you subscribed to. Data may be disclosed only if required by law.",
+        "We may use cookies or analytics tools to understand how our website is used and improve user experience. These tools collect anonymous statistics, not personal details.",
+        "We take reasonable precautions to protect your personal information, but no system is 100% secure.",
+        "Our email services are not directed toward children under 13, and we do not knowingly collect their information.",
+        "We may update this Privacy Policy occasionally. Updates will be posted here with a revised date.",
+        "If you have any questions, contact us at: contact@yespublic.net"
+      ]
+    }
+  },
+  "subscribe": {
+    "header": "Subscribe to Yespublic Health and Fitness",
+    "benefits": [
+      "Weekly health & wellness tips",
+      "Nutrition and fitness guidance",
+      "Simple lifestyle hacks for better living",
+      "Updates on our latest articles & resources"
+    ],
+    "unsubscribe": {
+      "message": "You have been unsubscribed from our health & wellness emails. You can always re-subscribe anytime.",
+      "cta": "Re-Subscribe"
+    },
+    "social": {
+      "instagram": "https://instagram.com"
+    }
+  }
+}
