@@ -1,7 +1,7 @@
 import { useState } from "react";
-import content from "../data/content.json";
+import data from "../data/content.json";
 
-const AccordionItem = ({ title, content }) => {
+const AccordionItem = ({ question, answers }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -10,12 +10,12 @@ const AccordionItem = ({ title, content }) => {
         onClick={() => setOpen(!open)}
         className="w-full flex justify-between items-center py-3 text-left font-medium text-lg"
       >
-        {title}
+        {question}
         <span>{open ? "−" : "+"}</span>
       </button>
       {open && (
         <div className="pb-4 text-gray-700 space-y-2">
-          {content.map((line, i) => (
+          {answers.map((line, i) => (
             <p key={i}>{line}</p>
           ))}
         </div>
@@ -28,11 +28,11 @@ export default function Privacy() {
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-2xl font-bold mb-6">Privacy Policy</h1>
-      {content.map((item, idx) => (
+      {data.privacy.map((item, idx) => (
         <AccordionItem
           key={idx}
-          title={item.title}
-          content={item.content}
+          question={item.question}
+          answers={item.answers}
         />
       ))}
     </div>
