@@ -3,5 +3,5 @@ import SectionGrid from '../components/SectionGrid'
 
 export default function Fitness() {
 	const { fitnessPosts } = content.home
-	return <SectionGrid title={fitnessPosts.title} variant="bullets" items={fitnessPosts.items} />
+	return <SectionGrid title={fitnessPosts.title} variant="articles" items={fitnessPosts.items} />
 }
