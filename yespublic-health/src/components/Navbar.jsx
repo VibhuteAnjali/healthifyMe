@@ -23,6 +23,9 @@ export default function Navbar() {
 						</li>
 					))}
 				</ul>
+				<div style={{ justifySelf: 'end' }}>
+					<a className="btn" href="/subscribe">Subscribe</a>
+				</div>
 			</div>
 		</nav>
 	)
