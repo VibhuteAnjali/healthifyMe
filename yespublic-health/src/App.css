@@ -58,7 +58,7 @@ main { padding-bottom: 40px; }
 
 /* Typography */
 .muted { color: var(--muted); }
-
+#white {color:white;}
 /* Layout helpers */
 .narrow { max-width: 680px; }
 .bullet-list { color: var(--muted); padding-left: 18px; }
