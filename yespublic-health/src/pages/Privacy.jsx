@@ -6,13 +6,13 @@ const AccordionItem = ({ question, answers }) => {
 
   return (
     <div className="border-b border-gray-300">
-      <button
+      <p
         onClick={() => setOpen(!open)}
         className="w-full flex justify-between items-center py-3 text-left font-medium text-lg"
       >
         {question}
         <span>{open ? "−" : "+"}</span>
-      </button>
+      </p>
       {open && (
         <div className="pb-4 text-gray-700 space-y-2">
           {answers.map((line, i) => (
