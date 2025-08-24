@@ -74,9 +74,6 @@ main { padding-bottom: 40px; }
 /* Theme colors from site */
 .text-gray-700 { color: var(--muted); }
 
-/* Accordion row + border using site variables */
-.border-b { border-bottom: 1px solid var(--line); }
-.border-gray-300 { border-color: var(--line); }
 
 /* Utility bits used in your markup */
 .w-full { width: 100%; }
@@ -99,22 +96,23 @@ main { padding-bottom: 40px; }
   padding: 12px 14px;
   transition: background-color .2s ease, border-color .2s ease, color .2s ease;
   cursor: pointer;
+  font-family: Lato;
 }
 
 .border-b > p:hover {
-  border-color: var(--brand);
+  border-color: black;
 }
 
 /* +/- icon style */
 .border-b > p span {
-  color: var(--brand);
+  color: black;
   font-weight: 800;
   margin-left: 12px;
 }
 
 /* Answer block */
 .border-b .pb-4 {
-  background: #0d0f14;
+  background: white;
   border-left: 2px solid var(--brand);
   border-radius: 8px;
   padding: 12px 14px;
