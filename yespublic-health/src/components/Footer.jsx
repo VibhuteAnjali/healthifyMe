@@ -9,7 +9,6 @@ export default function Footer() {
 					<p>Join over 4,000+ readers already growing with Yespublic.</p>
 					<div className="actions">
 						<a className="btn" href="/subscribe">Subscribe</a>
-						<a className="btn outline" href="/unsubscribe">Unsubscribe</a>
 					</div>
 				</div>
 				<div className="footer-links">
