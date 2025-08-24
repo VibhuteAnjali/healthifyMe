@@ -208,7 +208,6 @@
       ]
     }
   },
-  {
   "privacy": [
     {
       "question": "1. Information We Collect",
@@ -275,8 +274,7 @@
         "If you have any questions about this Privacy Policy or your data, please contact us at: contact@yespublic.net"
       ]
     }
-  ]
-},
+  ],
   "subscribe": {
     "header": "Subscribe to Yespublic Health and Fitness",
     "benefits": [
