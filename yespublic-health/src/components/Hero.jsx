@@ -8,7 +8,7 @@ export default function Hero({ options = [] }) {
 		if (!options || options.length === 0) return
 		const intervalId = setInterval(() => {
 			setSelectedIndex((prev) => (prev + 1) % options.length)
-		}, 10000)
+		}, 5000)
 		return () => clearInterval(intervalId)
 	}, [options])
 

@@ -24,7 +24,7 @@ export default function Navbar() {
 					))}
 				</ul>
 				<div className="nav-actions">
-					<a className="btn" href="/subscribe">Subscribe</a>
+					<a id="white" className="btn" href="/subscribe">Subscribe</a>
 				</div>
 			</div>
 		</nav>

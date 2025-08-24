@@ -3,7 +3,7 @@
   "home": {
     "heroOptions": [
       {
-        "headline": "Your Journey to Health Starts Here.",
+        "headline": "Empowering You to Live Well",
         "subline": "Guiding you with fitness plans, diet tips, and motivation every step of the way."
       },
       {
@@ -64,7 +64,7 @@
           "category": "Fitness",
           "title": "Yoga",
           "excerpt": "Find strength, stillness and self-awareness on the mat.",
-          "image": "https://images.unsplash.com/photo-1554344728-0e2a7a7b1d4c",
+          "image": "https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg",
           "url": "https://example.com/yoga"
         },
         {
@@ -72,7 +72,7 @@
           "category": "Fitness",
           "title": "Jogging",
           "excerpt": "Consistency over speed. Every step makes you stronger.",
-          "image": "https://images.unsplash.com/photo-1554252113-6ffd7ef7f4c8",
+          "image": "https://images.pexels.com/photos/1199590/pexels-photo-1199590.jpeg",
           "url": "https://example.com/jogging"
         }
       ]
