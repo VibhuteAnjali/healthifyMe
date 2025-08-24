@@ -62,3 +62,68 @@ main { padding-bottom: 40px; }
 /* Layout helpers */
 .narrow { max-width: 680px; }
 .bullet-list { color: var(--muted); padding-left: 18px; }
+/* Policy page container utilities (to match your class names) */
+.max-w-3xl { max-width: 48rem; }            /* 768px */
+.mx-auto { margin-left: auto; margin-right: auto; }
+.p-4 { padding: 16px; }
+.mb-6 { margin-bottom: 24px; }
+
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.font-bold { font-weight: 800; }
+
+/* Theme colors from site */
+.text-gray-700 { color: var(--muted); }
+
+/* Accordion row + border using site variables */
+.border-b { border-bottom: 1px solid var(--line); }
+.border-gray-300 { border-color: var(--line); }
+
+/* Utility bits used in your markup */
+.w-full { width: 100%; }
+.flex { display: flex; }
+.justify-between { justify-content: space-between; }
+.items-center { align-items: center; }
+.py-3 { padding-top: 12px; padding-bottom: 12px; }
+.text-left { text-align: left; }
+.font-medium { font-weight: 600; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.pb-4 { padding-bottom: 1rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+
+/* Accordion theming */
+.border-b > p {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+  cursor: pointer;
+}
+
+.border-b > p:hover {
+  border-color: var(--brand);
+}
+
+/* +/- icon style */
+.border-b > p span {
+  color: var(--brand);
+  font-weight: 800;
+  margin-left: 12px;
+}
+
+/* Answer block */
+.border-b .pb-4 {
+  background: #0d0f14;
+  border-left: 2px solid var(--brand);
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+/* Page heading */
+.max-w-3xl.mx-auto.p-4 > h1 {
+  color: var(--text);
+  margin-bottom: 24px; /* same as .mb-6 */
+}
