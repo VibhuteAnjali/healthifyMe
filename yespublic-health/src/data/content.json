@@ -208,23 +208,75 @@
       ]
     }
   },
-  "legal": {
-    "privacyPolicy": {
-      "effectiveDate": "01/05/2024",
-      "content": [
-        "At Yespublic Health and Fitness, we respect your privacy. This Privacy Policy explains how we collect, use, and protect your information when you sign up for our health-related email updates. We are a non-commercial website, and your personal information is never sold or misused.",
-        "We collect your email address when you voluntarily subscribe to our newsletters, health tips, or updates. If you contact us directly (e.g., via forms), we may collect your name or other details you provide. Like most websites, we may collect basic browsing data (IP, browser type, pages visited) for analytics and improvement.",
-        "We use your email address to send health-related tips and resources, share newsletters you subscribed to, and respond to inquiries.",
-        "You will only receive emails if you opt-in. Every email includes an unsubscribe link. We do not send spam or irrelevant promotions.",
-        "We do not sell, rent, or share your personal information with third parties for commercial purposes. If we use a third-party email service (like Mailchimp or Brevo), your email is stored securely and used only for the messages you subscribed to. Data may be disclosed only if required by law.",
-        "We may use cookies or analytics tools to understand how our website is used and improve user experience. These tools collect anonymous statistics, not personal details.",
-        "We take reasonable precautions to protect your personal information, but no system is 100% secure.",
-        "Our email services are not directed toward children under 13, and we do not knowingly collect their information.",
-        "We may update this Privacy Policy occasionally. Updates will be posted here with a revised date.",
-        "If you have any questions, contact us at: contact@yespublic.net"
+  {
+  "privacy": [
+    {
+      "question": "1. Information We Collect",
+      "answers": [
+        "Email Address: We collect your email address when you voluntarily subscribe to our newsletters, health tips, or updates.",
+        "Optional Information: If you contact us directly (e.g., via forms), we may collect your name or other details you provide.",
+        "Non-Personal Information: Like most websites, we may collect basic browsing data (IP, browser type, pages visited) for analytics and improvement."
+      ]
+    },
+    {
+      "question": "2. How We Use Your Information",
+      "answers": [
+        "Send health-related tips, resources, and updates.",
+        "Share newsletters or content you subscribed to.",
+        "Respond to your inquiries or feedback."
+      ]
+    },
+    {
+      "question": "3. Email Marketing & Unsubscribing",
+      "answers": [
+        "You will only receive emails if you opt-in.",
+        "Every email we send includes an unsubscribe link so you can stop receiving messages anytime.",
+        "We do not send spam or irrelevant promotions."
+      ]
+    },
+    {
+      "question": "4. Data Sharing",
+      "answers": [
+        "We do not sell, rent, or share your personal information with third parties for commercial purposes.",
+        "If we use a third-party email service (like Mailchimp, Brevo, etc.), your email address is stored securely within that platform and used only to send you the messages you subscribed to.",
+        "Data may be disclosed only if required by law."
+      ]
+    },
+    {
+      "question": "5. Cookies & Tracking",
+      "answers": [
+        "We may use cookies or analytics tools to understand how our website is used and improve user experience.",
+        "These tools collect anonymous statistics, not personal details."
+      ]
+    },
+    {
+      "question": "6. Data Security",
+      "answers": [
+        "We take reasonable precautions to protect your personal information.",
+        "However, no system is 100% secure, so please use the website at your own discretion."
+      ]
+    },
+    {
+      "question": "7. Children’s Privacy",
+      "answers": [
+        "Our email services are not directed toward children under 13, and we do not knowingly collect their information."
+      ]
+    },
+    {
+      "question": "8. Changes to This Privacy Policy",
+      "answers": [
+        "We may update this Privacy Policy occasionally.",
+        "Updates will be posted here with a revised date."
+      ]
+    },
+    {
+      "question": "9. Contact Us",
+      "answers": [
+        "If you have any questions about this Privacy Policy or your data, please contact us at: contact@yespublic.net"
       ]
     }
-  },
+  ]
+},
   "subscribe": {
     "header": "Subscribe to Yespublic Health and Fitness",
     "benefits": [
