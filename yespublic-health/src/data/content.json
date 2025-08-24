@@ -27,21 +27,24 @@
           "category": "Exercise Program",
           "title": "Exercise Program",
           "excerpt": "Strong body, stronger mind - train daily, shine daily. Consistency builds strength, and strength builds confidence.",
-          "image": "/placeholder/exercise.jpg"
+          "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1",
+          "url": "https://example.com/exercise-program"
         },
         {
           "id": "nutrition-plans",
           "category": "Nutrition Plans",
           "title": "Nutrition Plans",
           "excerpt": "Fuel your body with the right food, and it will reward you with energy and strength. Good nutrition isn't a diet, it's a lifestyle for lifelong health.",
-          "image": "/placeholder/nutrition.jpg"
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+          "url": "https://example.com/nutrition-plans"
         },
         {
           "id": "diet-program",
           "category": "Diet Program",
           "title": "Diet Program",
           "excerpt": "A healthy diet is not about restriction, it's about nourishment - eat better, live better. Small changes in your plate create big changes in your life.",
-          "image": "/placeholder/diet.jpg"
+          "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443",
+          "url": "https://example.com/diet-program"
         }
       ]
     },
@@ -50,44 +53,57 @@
       "items": [
         {
           "id": "muscle-training",
+          "category": "Fitness",
           "title": "Muscle Training",
-          "bullets": [
-            "Muscles are built with sweat, strength, and consistency.",
-            "Train hard today, so your strength speaks tomorrow.",
-            "Every rep takes you one step closer to the body you want.",
-            "Strong muscles, stronger you — push past your limits."
-          ]
+          "excerpt": "Muscles are built with sweat, strength, and consistency.",
+          "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+          "url": "https://example.com/muscle-training"
         },
         {
           "id": "yoga",
+          "category": "Fitness",
           "title": "Yoga",
-          "bullets": [
-            "Yoga is the journey of the self, through the self, to the self.",
-            "Balance your body, calm your mind, and nourish your soul with yoga.",
-            "On the mat, you find strength, stillness, and self-awareness."
-          ]
+          "excerpt": "Find strength, stillness and self-awareness on the mat.",
+          "image": "https://images.unsplash.com/photo-1554344728-0e2a7a7b1d4c",
+          "url": "https://example.com/yoga"
         },
         {
           "id": "jogging",
+          "category": "Fitness",
           "title": "Jogging",
-          "bullets": [
-            "Jogging is not about speed, it’s about consistency and freedom.",
-            "Every step you jog is a step closer to a healthier you.",
-            "Jog to clear your mind, strengthen your body, and uplift your spirit.",
-            "The road may be long, but every jog makes you stronger."
-          ]
+          "excerpt": "Consistency over speed. Every step makes you stronger.",
+          "image": "https://images.unsplash.com/photo-1554252113-6ffd7ef7f4c8",
+          "url": "https://example.com/jogging"
         }
       ]
     },
     "wellnessPosts": {
       "title": "Recent Wellness Posts",
-      "bullets": [
-        "Wellness is the balance of body, mind, and spirit.",
-        "Invest in your wellness today to avoid illness tomorrow",
-        "True wellness is not just living longer, but living better",
-        "Mental health is just as important as physical health — care for both",
-        "Strong minds are built through self-care, support, and understanding",
-        "Healing begins when you choose to speak, share, and seek support"
+      "items": [
+        {
+          "id": "mindfulness",
+          "category": "Wellness",
+          "title": "Mindfulness",
+          "excerpt": "Balance your body, calm your mind, nourish your soul.",
+          "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+          "url": "https://example.com/mindfulness"
+        },
+        {
+          "id": "self-care",
+          "category": "Wellness",
+          "title": "Self Care",
+          "excerpt": "Invest in yourself today to avoid illness tomorrow.",
+          "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388",
+          "url": "https://example.com/self-care"
+        },
+        {
+          "id": "mental-health",
+          "category": "Wellness",
+          "title": "Mental Health",
+          "excerpt": "Healing begins when you choose to speak and seek support.",
+          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+          "url": "https://example.com/mental-health"
+        }
       ]
     },
     "recipes": {
