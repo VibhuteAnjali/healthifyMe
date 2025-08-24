@@ -31,8 +31,8 @@ main { padding-bottom: 40px; }
 
 /* Cards */
 .card { background: var(--card); border:1px solid var(--line); border-radius: 12px; overflow: hidden; display:flex; flex-direction: column; text-decoration: none; color: inherit; }
-.card-media { height: 140px; background: linear-gradient(135deg,#20242c,#13151b); display:flex; align-items:center; justify-content:center; color: var(--muted); font-weight:700; }
-.card-media img { width: 100%; height: 100%; object-fit: cover; display:block; }
+.card-media { height: 140px; padding: 12px; background: var(--card); display:flex; align-items:center; justify-content:center; color: var(--muted); font-weight:700; }
+.card-media img { width: 100%; height: 100%; object-fit: cover; display:block; border-radius: 10px; }
 .media-placeholder { opacity:.8; text-transform: uppercase; font-size: 12px; letter-spacing:1px; }
 .card-body { padding: 14px; }
 .card-title { margin: 0 0 6px; font-size: 18px; font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
