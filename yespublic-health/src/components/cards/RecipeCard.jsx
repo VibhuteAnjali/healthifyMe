@@ -5,9 +5,9 @@ export default function RecipeCard({ item }) {
 	return (
 		<article className="card recipe">
 			<div className="card-body">
-				<h3 className="card-title"><img className="recipe-thumb" src={item.image} alt="recipe" aria-hidden /><p>{item.title}<button className="btn small" onClick={() => setOpen((v) => !v)}>
+				<h3 className="card-title"><img className="recipe-thumb" src={item.image} alt="recipe" aria-hidden /><p>{item.title}</p><button className="btn small" onClick={() => setOpen((v) => !v)}>
 					{open ? 'Hide details' : 'View details'}
-				</button></p></h3>
+				</button></h3>
 				{open && (
 					<div className="recipe-details">
 						<h4>Ingredients</h4>
