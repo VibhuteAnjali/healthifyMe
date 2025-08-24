@@ -125,3 +125,15 @@ main { padding-bottom: 40px; }
   color: var(--text);
   margin-bottom: 24px; /* same as .mb-6 */
 }
+.recipe-thumb{
+    width: 8em;
+    margin: auto;
+    border-radius: 200%;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    gap: 1em;
+}
