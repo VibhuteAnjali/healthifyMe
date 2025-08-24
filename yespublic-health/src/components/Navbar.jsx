@@ -23,6 +23,9 @@ export default function Navbar() {
 						</li>
 					))}
 				</ul>
+				<div className="nav-actions">
+					<a className="btn" href="/subscribe">Subscribe</a>
+				</div>
 			</div>
 		</nav>
 	)
