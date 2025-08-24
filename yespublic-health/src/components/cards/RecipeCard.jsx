@@ -6,7 +6,6 @@ export default function RecipeCard({ item }) {
 		<article className="card recipe">
 			<div className="card-body">
 				<h3 className="card-title"><img className="recipe-thumb" src={item.image} alt="recipe" aria-hidden />{item.title}</h3>
-				<p className="card-meta">Servings: {item.servings}</p>
 				<button className="btn small" onClick={() => setOpen((v) => !v)}>
 					{open ? 'Hide details' : 'View details'}
 				</button>
