@@ -113,6 +113,7 @@
           "id": "rainbow-lentil-bowls",
           "title": "Rainbow Lentil & Brown Rice Veggie Bowls",
           "servings": 3,
+          "image":"/Lentil_Rice_Bowl.jpg"
           "ingredients": [
             "1 cup brown or red rice (cooked)",
             "1 cup cooked lentils (green or brown)",
@@ -141,6 +142,7 @@
           "id": "salmon-stir-fry",
           "title": "Salmon Stir-Fry with Broccoli & Bell Peppers",
           "servings": 2,
+          "image":"/broccoli-beauty.jpg",
           "ingredients": [
             "2 salmon fillets (cubed)",
             "2 cups broccoli florets",
@@ -169,6 +171,7 @@
           "id": "rainbow-buddha-bowl",
           "title": "Rainbow Buddha Bowl",
           "servings": 2,
+          "image":"/plant-based-recipes.jpg",
           "ingredients": [
             "1 cup cooked brown rice or quinoa",
             "1 cup roasted sweet potatoes (cubed)",
