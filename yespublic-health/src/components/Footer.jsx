@@ -13,6 +13,7 @@ export default function Footer() {
 				</div>
 				<div className="footer-links">
 					<a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
 					<a href={content.subscribe.social.instagram} target="_blank" rel="noreferrer">Instagram</a>
 				</div>
 				<div className="copyright">© 2024 Yespublic Health and Fitness</div>
