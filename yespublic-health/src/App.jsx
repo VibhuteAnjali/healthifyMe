@@ -8,7 +8,9 @@ import Fitness from './pages/Fitness'
 import About from './pages/About'
 import Privacy from './pages/Privacy'
 import { Subscribe, Unsubscribe } from './pages/Subscribe'
+import Terms from './pages/Terms'
 import './App.css'
+
 
 export default function App() {
 	return (
@@ -24,6 +26,7 @@ export default function App() {
 					<Route path="/privacy" element={<Privacy />} />
 					<Route path="/subscribe" element={<Subscribe />} />
 					<Route path="/unsubscribe" element={<Unsubscribe />} />
+                    <Route path="/terms" element={<Terms />} />
 				</Routes>
 			</main>
 			<Footer />
