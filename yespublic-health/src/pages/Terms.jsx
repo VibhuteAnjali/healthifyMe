@@ -1,5 +1,26 @@
-import Accordion from '../components/Accordion'
 
+const Accordion = ({ question, answers }) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="border-b border-gray-300">
+      <p
+        onClick={() => setOpen(!open)}
+        className="w-full flex justify-between items-center py-3 text-left font-medium text-lg"
+      >
+        {question}
+        <span>{open ? "−" : "+"}</span>
+      </p>
+      {open && (
+        <div className="pb-4 text-gray-700 space-y-2">
+          {answers.map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 export default function Terms() {
 	const items = [
 		{
