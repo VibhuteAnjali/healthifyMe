@@ -90,7 +90,7 @@ export default function Terms() {
       answer: (
         <p>
           Your privacy is important to us. Please review our{" "}
-          <a href="/policy">Privacy Policy</a> to understand how we collect and
+          <a href="/privacy">Privacy Policy</a> to understand how we collect and
           use your information.
         </p>
       ),
