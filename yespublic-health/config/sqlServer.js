@@ -18,10 +18,24 @@ export const sqlConfig = {
 
 export const getConnection = async () => {
   try {
+    console.log('Attempting to connect to SQL Server with config:', {
+      server: sqlConfig.server,
+      database: sqlConfig.database,
+      user: sqlConfig.user,
+      options: sqlConfig.options
+    });
+    
     const pool = await sql.connect(sqlConfig);
+    console.log('Successfully connected to SQL Server');
     return pool;
   } catch (error) {
-    console.error('Database Connection Error:', error);
+    console.error('Database Connection Error:', {
+      message: error.message,
+      code: error.code,
+      name: error.name,
+      stack: error.stack,
+      timestamp: new Date().toISOString()
+    });
     throw error;
   }
 };

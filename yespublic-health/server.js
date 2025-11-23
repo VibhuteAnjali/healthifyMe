@@ -42,24 +42,34 @@ app.use('/api/', limiter);
 
 // API Routes
 app.post('/api/subscribe', async (req, res) => {
+  console.log('Subscribe request received:', {
+    body: req.body,
+    headers: req.headers,
+    timestamp: new Date().toISOString()
+  });
+
   try {
     const { email } = req.body;
+    console.log('Processing subscription for email:', email);
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      console.log('Invalid email format:', email);
       return res.status(400).json({ 
         success: false, 
         message: 'Please provide a valid email address.' 
       });
     }
 
+    console.log('Attempting to connect to database...');
     const pool = await getConnection();
     
-    // Check if email exists
+    console.log('Checking if email exists:', email);
     const checkResult = await pool.request()
       .input('email', sql.NVarChar, email)
       .query('SELECT id FROM Subscribers WHERE email = @email');
 
     if (checkResult.recordset.length > 0) {
+      console.log('Email already exists:', email);
       return res.status(200).json({ 
         success: true, 
         message: 'You are already subscribed!',
@@ -86,7 +96,21 @@ app.post('/api/subscribe', async (req, res) => {
     });
 
   } catch (error) {
-    console.error('Subscription error:', error);
+    console.error('Subscription error details:', {
+      message: error.message,
+      code: error.code,
+      name: error.name,
+      stack: error.stack,
+      timestamp: new Date().toISOString(),
+      environment: process.env.NODE_ENV,
+      dbConfig: {
+        server: process.env.DB_SERVER,
+        database: process.env.DB_NAME,
+        user: process.env.DB_USER,
+        hasPassword: !!process.env.DB_PASSWORD
+      }
+    });
+    
     res.status(500).json({ 
       success: false, 
       message: 'An error occurred while processing your subscription.' 
