@@ -1,10 +1,12 @@
 import mysql from "mysql2/promise";
 
+// MySQL connection config
 const config = {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
+  host: process.env.DB_HOST,     // e.g., '142.93.186.101'
+  user: process.env.DB_USER,     // your DB username
+  password: process.env.DB_PASS, // your DB password
+  database: process.env.DB_NAME, // your DB name
+  port: 3306,                    // MySQL default port
 };
 
 export default async function handler(req, res) {
@@ -18,8 +20,10 @@ export default async function handler(req, res) {
   let connection;
 
   try {
+    // Connect to MySQL
     connection = await mysql.createConnection(config);
 
+    // Insert email into Subscribers table
     const [result] = await connection.execute(
       "INSERT INTO Subscribers (Email) VALUES (?)",
       [email]
@@ -27,7 +31,7 @@ export default async function handler(req, res) {
 
     return res.status(200).json({ success: true, message: "Subscribed!" });
   } catch (err) {
-    console.error(err);
+    console.error("DB Error:", err);
     return res.status(500).json({ message: "DB Error" });
   } finally {
     if (connection) await connection.end();
