@@ -8,7 +8,7 @@ import Fitness from './pages/Fitness'
 import About from './pages/About'
 import Privacy from './pages/Privacy'
 import { Subscribe } from './pages/Subscribe'
-import Unsubscribe from './Pages/UnSubscribe'
+import Unsubscribe from './pages/UnSubscribe'
 import Terms from './pages/Terms'
 import './App.css'
 
