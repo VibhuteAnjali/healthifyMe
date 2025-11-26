@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 
     // Insert email into Subscribers table
     const [result] = await connection.execute(
-      "INSERT INTO Subscribe (Email) VALUES (?)",
+      "INSERT INTO subscribe (email) VALUES (?)",
       [email]
     );
 
