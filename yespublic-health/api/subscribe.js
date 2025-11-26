@@ -32,7 +32,7 @@ export default async function handler(req, res) {
     return res.status(200).json({ success: true, message: "Subscribed!" });
   } catch (err) {
     console.error("DB Error:", err);
-    return res.status(500).json({ message: "DB Error" });
+    return res.status(500).json({ message: "Something went wrong!. Please try again later." });
   } finally {
     if (connection) await connection.end();
   }
