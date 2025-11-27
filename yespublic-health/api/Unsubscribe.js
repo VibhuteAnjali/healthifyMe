@@ -2,46 +2,37 @@ import mysql from "mysql2/promise";
 
 // MySQL connection config
 const config = {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
-  port: 3306,
+  host: process.env.DB_HOST,     // e.g., '142.93.186.101'
+  user: process.env.DB_USER,     // your DB username
+  password: process.env.DB_PASS, // your DB password
+  database: process.env.DB_NAME, // your DB name
+  port: 3306,                    // MySQL default port
 };
 
 export default async function handler(req, res) {
- 
-  const { email } = req.body;
-  if (!email) {
-    return res.status(400).json({ message: "Email required" });
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Method Not Allowed" });
   }
+
+  const { email } = req.body;
+  if (!email) return res.status(400).json({ message: "Email required" });
 
   let connection;
 
   try {
+    // Connect to MySQL
     connection = await mysql.createConnection(config);
 
-    // Check if the email exists
-    const [existing] = await connection.execute(
-      "SELECT * FROM subscribe WHERE email = ?",
+    // Insert email into Subscribers table
+    const [result] = await connection.execute(
+      "INSERT INTO unsubscribe (email) VALUES (?)",
       [email]
     );
 
-    if (existing.length === 0) {
-      return res.status(404).json({ message: "Email not found" });
-    }
-
-    // Update last_name to “Unsub”
-    await connection.execute(
-      "UPDATE subscribe SET last_name = 'Unsub' WHERE email = ?",
-      [email]
-    );
-
-    return res.status(200).json({ success: true, message: "Unsubscribed successfully!" });
-
+    return res.status(200).json({ success: true, message: "Subscribed!" });
   } catch (err) {
     console.error("DB Error:", err);
-    return res.status(500).json({ message: "Something went wrong! Please try again later." });
+    return res.status(500).json({ message: "Something went wrong!. Please try again later." });
   } finally {
     if (connection) await connection.end();
   }
