@@ -10,10 +10,7 @@ const config = {
 };
 
 export default async function handler(req, res) {
-  if (req.method !== "POST" && req.method !== "GET") {
-    return res.status(405).json({ message: "Method Not Allowed" });
-  }
-
+ 
   const { email } = req.body;
   if (!email) {
     return res.status(400).json({ message: "Email required" });
