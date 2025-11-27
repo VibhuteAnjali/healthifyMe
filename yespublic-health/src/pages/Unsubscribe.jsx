@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import content from '../data/content.json';
 
-export default function Unsubscribe() {
+export default function UnsubscribePage() {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState({ type: '', message: '' });
   const [isLoading, setIsLoading] = useState(false);
