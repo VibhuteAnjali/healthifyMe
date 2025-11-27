@@ -14,7 +14,7 @@ export default function UnsubscribePage() {
     setStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('/api/unsubscribe', {
+      const response = await fetch('/api/UnsubscribeEmail', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
